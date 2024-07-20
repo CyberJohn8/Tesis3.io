@@ -19,14 +19,14 @@
 /* Definición de fuente personalizada */
 @font-face {
     font-family: 'Exotc350';
-    src: url('Estilo_Texto/EXOT350B.TTF') format('truetype'); /* Formato TrueType (.ttf) */
+    src: url('../Estilo_Texto/EXOT350B.TTF') format('truetype'); /* Formato TrueType (.ttf) */
     font-weight: normal; /* Peso de la fuente */
     font-style: normal; /* Estilo de la fuente */
 }
 
 @font-face {
     font-family: 'Gothy';
-    src: url('Estilo_Texto/Gothy/GOTHIC.TTF') format('truetype'); /* Formato TrueType (.ttf) */
+    src: url('../Estilo_Texto/Gothy/GOTHIC.TTF') format('truetype'); /* Formato TrueType (.ttf) */
     font-weight: normal; /* Peso de la fuente */
     font-style: normal; /* Estilo de la fuente */
 }
@@ -177,23 +177,23 @@ CUERPO
     overflow: hidden; /* Deshabilita todo el scroll */
 
     transition: background-image 1s ease-in-out; /* Transición suave */
-    background-image: url("https://drive.google.com/uc?export=view&id=1XBvGmwP5gvZfW1CR9APZ-GecHNKx4p3n");
+    background-image: url("../Fotos/Fondo_Compu_Inicio.jpg");
 }
 
 /* Clase para el fondo final */
 .fondo-final {
-    background-image: url("https://drive.google.com/uc?export=view&id=1eB6SyJR0Utw33BoH96F2kzOyWIpddmkq");
+    background-image: url("../Fotos/Fondo_Compu_Final.jpg");
 }
 
 
 /* Clase para el encabezado con fondo */
 .header-final {
-    background-image: none;     
+    background-image: none;    
 }
 
 /* Clase para el pie de página con fondo */
 .footer-final {
-    background-image: none;      
+    background-image: none;   
 }
 
 .Tronco {
@@ -286,6 +286,18 @@ CUERPO
 
 }
 
+/*Estilo de galeria cambiante*/
+/*CSS del carusel*/
+/* Contenedor principal del carrusel */
+/* .Cuerpo_Carusel{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+} */
+
 /* styles.css */
 /* Multi_Menu de Galeria */
 
@@ -293,7 +305,7 @@ CUERPO
 .menu-container {
     margin: 20px; /* Márgenes exteriores */
 
-    background-image: url('Fotos/Menu_Barra.png'); /* Cambia a la ruta de tu imagen */
+    background-image: url('../Fotos/Menu_Barra.png'); /* Cambia a la ruta de tu imagen */
     background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -534,12 +546,12 @@ FORMATO CELULARES
 
     /* Clase para el fondo inicial */
 .fondo-inicial {
-    background-image: url("https://drive.google.com/uc?export=view&id=1aSpgf1g3i4a2iKA4LSGNagfYjw7shJpk");
+    background-image: url("../Fotos/Fondo_Telefono_Inicio.jpg");
 }
 
 /* Clase para el fondo final */
 .fondo-final {
-    background-image: url("https://drive.google.com/uc?export=view&id=1eq7VzOfkfmj3O-7rpm8jd-Pzl7ZOyhmv");
+    background-image: url("../Fotos/Fondo_Telefono_Final.jpg");
 }
 
 
